@@ -35,4 +35,10 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [
+        'client_id' => '640056459535988',
+        'client_secret' => '52045c7203de9db3b591e016c85bcb57',
+        'redirect' => 'bgi.mn/callback',
+    ],
+
 ];
